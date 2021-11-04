@@ -3,13 +3,57 @@ body{
     font-family: Arial, sans-serif;
 }
 
+/*header*/
 header{
     font-family: Helvetica, arial, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*main*/
+main{
+    margin-top: 100px;
 }
 
 img{
     width: 100%;
     height: auto;
+}
+
+ul .arrow-down-icon{
+    width: 10px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.ms-btn{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ms-medium-btn{
+    padding: 7px 14px;
+    border-radius: 20px;
+}
+
+.ms-bkg-dark{
+    background-color: #363636;
+    color: white;
 }
 
 /*test wrapper*/
@@ -41,11 +85,49 @@ img{
 /*Header Nav*/
 header nav{
     width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
 
-    /*Test*/
-    background-color: darkgray;
+.ps-logo{
+    width: 50px;
+    margin-right: 15px;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-right{
     text-align: right;
+}
+
+.nav-right .burger-menu-icon{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.nav-right .lens-icon{
+    display: inline-block;
+    width: 23px;
+    margin-left: 10px;
+}
+
+.nav-right ul{
+    justify-content: right;
+}
+
+/*test*/
+.box{
+    width: 200px;
+    height: 400px;
+    background-color: darkcyan;
+    border: 5px solid black;
 }

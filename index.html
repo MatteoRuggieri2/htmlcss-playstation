@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-playstation</title>
 
+    <!-- Link Fontawesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- Link Bootsrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -26,41 +30,61 @@
         <!-- Header Nav -->
         <nav>
             <div class="container-fluid">
-                <div class="row">
+                <div class="row align-items-center">
 
                     <!-- Nav Left -->
                     <div class="col-6 col-xl-8">
                         <div class="nav-left">
-                            <span>ps-logo</span>
 
-                            <div class="list d-none d-xl-block">
-                                <span>gioca</span>
-                                <span>gioca</span>
-                                <span>gioca</span>
-                                <span>gioca</span>
-                                <span>gioca</span>
-                                <span>gioca</span>
+                            <!-- Logo -->
+                            <div class="ps-logo">
+                                <img src="img/play_logo.svg" alt="Play Station Logo">
                             </div>
+
+                            <!-- Link list -->
+                            <ul class="d-none d-xl-flex">
+                                <li><a href="#">Giochi<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                                <li><a href="#">Hardware<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                                <li><a href="#">Servizi<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                                <li><a href="#">Novità<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                                <li><a href="#">Fai acquisti<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                                <li><a href="#">Supporto<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt="arrow-down-icon"></span></a></li>
+                            </ul>
                         </div>
                     </div>
 
                     <!-- Nav Right -->
                     <div class="col-6 col-xl-4">
                         <div class="nav-right">
-                            <div class="list d-none d-xl-block">
-                                <span>my-playstation</span>
-                                <span>accedi</span>
-                                <span>lente</span>
-                            </div>
 
-                            <span class="d-xl-none">hamburger</span>
+                            <!-- Link list -->
+                            <ul class="d-none d-xl-flex">
+                                <li><a href="#">My PlayStation<span class="arrow-down-icon"><img src="img/chevron-down-solid.svg" alt=""></span></a></li>
+                                <li><a class="ms-btn ms-medium-btn ms-bkg-dark" href="#">Accedi</a></li>
+                                <li><a href="#"><span class="lens-icon"><img src="img/lens.svg" alt="lens icon"></span></a></li>
+                            </ul>
+
+                            <!-- Burger-menu Icon -->
+                            <span class="d-xl-none"><a class="burger-menu-icon" href="#"><i class="fas fa-bars"></i></a></span>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </nav>
 
     </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- test -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
 
 </body>
 </html>
