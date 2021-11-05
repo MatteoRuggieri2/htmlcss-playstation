@@ -37,7 +37,6 @@ img{
 .jumbotron{
     width: 100%;
     padding-top: 200px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     color: white;
@@ -50,6 +49,10 @@ img{
 
 .jumbo-info{
     padding: 50px 0;
+}
+
+#returnal-jumbo{
+    background-image: url(../img/jumbo-bg.png);
 }
 
 /*Info Product*/
@@ -117,7 +120,7 @@ header nav{
     background-color: white;
 }
 
-.ps-logo{
+header nav .ps-logo{
     width: 50px;
     margin-right: 15px;
 }
@@ -148,4 +151,21 @@ nav ul li{
 
 .nav-right ul{
     justify-content: right;
+}
+
+/*MAIN*/
+/*Jumbo Game Section*/
+.jumbo-game-section{
+    padding: 20px 0;
+}
+
+/*Jumbo Game*/
+.jumbo-game{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
