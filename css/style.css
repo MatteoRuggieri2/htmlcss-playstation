@@ -215,8 +215,11 @@ nav ul li{
 /*PS5 Object*/
 .ps5-object{
     text-align: center;
+    height: 100%;
+    /* margin: 20px; */
 }
 
+/*img*/
 .ps5-object img{
     width: 100%;
     margin-bottom: 10px;
@@ -226,27 +229,38 @@ nav ul li{
 @media (min-width: 768px) {
     
     .ps5-object img{
-        width: 30%;
+        width: 40%;
     }
 
 }
 
+/*name*/
+.ps5-object .object-name{
+    display: none;
+}
+
+.ps5-object .object-name a{
+    text-decoration: none;
+    color: #727272;
+}
+
+@media (min-width: 768px) {
+    
+    .ps5-object .object-name{
+        display: block;
+    }
+
+}
+
+/*Active object*/
 .ps5-object.active-ps5-object{
-    border-bottom: 1px solid blue;
+    border-bottom: 2px solid #2083d4;
 }
 
 .active-ps5-object img{
     filter: opacity(1);
 }
 
-.ps5-object .object-name{
-    display: none;
-}
-
-@media (min-width: 768px) {
-    
-    .ps5-object .object-name{
-        display: inline-block;
-    }
-
+.ps5-object.active-ps5-object a{
+    color: black;
 }
