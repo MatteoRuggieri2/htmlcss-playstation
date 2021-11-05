@@ -9,6 +9,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 
 header ul{
@@ -46,6 +47,10 @@ img{
     color: white;
 }
 
+.jumbotron#it-takes-two-jumbo{
+    padding-top: 30px;
+}
+
 .jumbo-img{
     width: 60%;
     height: auto;
@@ -57,6 +62,10 @@ img{
 
 #returnal-jumbo{
     background-image: url(../img/jumbo-bg.png);
+}
+
+#it-takes-two-jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /*Info Product*/
