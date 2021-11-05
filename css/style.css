@@ -277,3 +277,8 @@ nav ul li{
 .ps5-object.active-ps5-object a{
     color: black;
 }
+
+/* New Game Section */
+.new-game .game-card img{
+    border-radius: 15px;
+}
