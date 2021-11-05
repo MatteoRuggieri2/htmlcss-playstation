@@ -33,6 +33,10 @@ img{
     height: auto;
 }
 
+.ms-img-container{
+    width: 100%;
+}
+
 /*Jumbotron*/
 .jumbotron{
     width: 100%;
@@ -66,6 +70,28 @@ img{
     font-size: 16px;
 }
 
+/*Section title*/
+.section-title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-title span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0a77d0;
+}
+
+.section-title h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.section-title p{
+    font-size: 20px;
+    color: #727272;
+}
+
 /*List*/
 ul .arrow-down-icon{
     width: 10px;
@@ -91,6 +117,11 @@ ul .arrow-down-icon{
 
 .ms-bkg-orange{
     background-color: #cd3d0f;
+    color: white;
+}
+
+.ms-bkg-blue{
+    background-color: #2d64e6;
     color: white;
 }
 
@@ -156,6 +187,7 @@ nav ul li{
 /*MAIN*/
 /*Jumbo Game Section*/
 .jumbo-game-section{
+    margin-bottom: 50px;
     padding: 20px 0;
 }
 
@@ -168,4 +200,53 @@ nav ul li{
     background-position: center;
     border-radius: 15px;
     overflow: hidden;
+}
+
+/*PS5 Section*/
+.ps5-img{
+    padding: 10px;
+}
+
+.ps5-text .info-product p{
+    font-size: 20px;
+    color: #727272;
+}
+
+/*PS5 Object*/
+.ps5-object{
+    text-align: center;
+}
+
+.ps5-object img{
+    width: 100%;
+    margin-bottom: 10px;
+    filter: opacity(0.6);
+}
+
+@media (min-width: 768px) {
+    
+    .ps5-object img{
+        width: 30%;
+    }
+
+}
+
+.ps5-object.active-ps5-object{
+    border-bottom: 1px solid blue;
+}
+
+.active-ps5-object img{
+    filter: opacity(1);
+}
+
+.ps5-object .object-name{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    
+    .ps5-object .object-name{
+        display: inline-block;
+    }
+
 }
