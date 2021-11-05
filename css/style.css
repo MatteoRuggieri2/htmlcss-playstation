@@ -225,13 +225,12 @@ nav ul li{
 .ps5-object{
     text-align: center;
     height: 100%;
-    /* margin: 20px; */
 }
 
 /*img*/
 .ps5-object img{
     width: 100%;
-    margin-bottom: 10px;
+    padding: 10px;
     filter: opacity(0.6);
 }
 
@@ -250,7 +249,12 @@ nav ul li{
 
 .ps5-object .object-name a{
     text-decoration: none;
+    font-size: 16px;
     color: #727272;
+}
+
+.ps5-object .object-name h3{
+    line-height: 22px;
 }
 
 @media (min-width: 768px) {
