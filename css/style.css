@@ -33,21 +33,44 @@ img{
     height: auto;
 }
 
+/*Jumbotron*/
 .jumbotron{
     width: 100%;
-    height: 600px;
+    padding-top: 200px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     color: white;
 }
 
+.jumbo-img{
+    width: 60%;
+    height: auto;
+}
+
+.jumbo-info{
+    padding: 50px 0;
+}
+
+/*Info Product*/
+.info-product h4{
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+.info-product p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/*List*/
 ul .arrow-down-icon{
     width: 10px;
     margin: 0 10px;
     display: inline-block;
 }
 
+/*Buttons*/
 .ms-btn{
     display: inline-block;
     text-decoration: none;
@@ -63,13 +86,9 @@ ul .arrow-down-icon{
     color: white;
 }
 
-/*test wrapper*/
-.wrapper{
-    width: 98%;
-    margin: auto;
-
-    /*Test*/
-    background-color: red;
+.ms-bkg-orange{
+    background-color: #cd3d0f;
+    color: white;
 }
 
 /*HEADER*/
