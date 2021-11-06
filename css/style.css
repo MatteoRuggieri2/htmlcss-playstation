@@ -57,6 +57,11 @@ img{
     width: 100%;
 }
 
+.ms-container-50{
+    width: 50%;
+    margin: auto;
+}
+
 /*Jumbotron*/
 .jumbotron{
     width: 100%;
@@ -87,6 +92,10 @@ img{
     background-color: #bebcbb;
 }
 
+#playstation-now-jumbo{
+    background-color: #161c3b;
+}
+
 /*Info Product*/
 .info-product h4{
     margin: 25px 0;
@@ -96,6 +105,7 @@ img{
 .info-product p{
     margin-bottom: 20px;
     font-size: 16px;
+    color: black;
 }
 
 /*Section title*/
@@ -141,6 +151,11 @@ ul .arrow-down-icon{
 .ms-bkg-dark{
     background-color: #363636;
     color: white;
+}
+
+.ms-bkg-white{
+    background-color: white;
+    color: black;
 }
 
 .ms-bkg-grey{
@@ -350,10 +365,13 @@ section.ps-services-jumbotron{
 
 .img-ps-services{
     max-width: 100%;
-    height: 100%;
 }
 
 /* PS Store - Discounts */
 .ps-store-discounts .ms-card-img{
     margin: 20px 0;
+}
+
+#playstation-now-jumbo .info-product p{
+    color: white;
 }
