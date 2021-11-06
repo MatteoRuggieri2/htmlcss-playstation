@@ -57,9 +57,19 @@ img{
     width: 100%;
 }
 
-.ms-container-50{
-    width: 50%;
-    margin: auto;
+/* Container md-60 */
+.ms-container-md-60{
+    width: 100%;
+}
+
+/* Mediaquery container md-60 */
+@media (min-width: 768px) {
+
+    .ms-container-md-60{
+        width: 60%;
+        margin: auto;
+    }
+
 }
 
 /*Jumbotron*/
@@ -374,4 +384,13 @@ section.ps-services-jumbotron{
 
 #playstation-now-jumbo .info-product p{
     color: white;
+}
+
+/*Social*/
+.social-container{
+    padding: 80px 0;
+}
+
+.social-container .social{
+    margin: 10px 5px;
 }
