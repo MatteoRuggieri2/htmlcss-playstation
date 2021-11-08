@@ -66,6 +66,11 @@ footer ul li{
     max-width: 200px;
 }
 
+footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 footer a{
     text-decoration: none;
     color: inherit;
@@ -388,6 +393,11 @@ header nav .ps-logo{
 .ps5-object{
     text-align: center;
     height: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.ps5-object:hover{
+    border-color: #94b6d1;
 }
 
 /*img*/
@@ -395,6 +405,10 @@ header nav .ps-logo{
     width: 100%;
     padding: 10px;
     filter: opacity(0.6);
+}
+
+.ps5-object img:hover{
+    filter: opacity(1);
 }
 
 @media (min-width: 768px) {
@@ -468,6 +482,11 @@ header nav .ps-logo{
 .new-game .game-card img{
     border-radius: 15px;
     margin-bottom: 15px;
+    transition: transform 0.5s;
+}
+
+.new-game .game-card img:hover{
+    transform: scale(1.03);
 }
 
 .new-game .game-card h5{
@@ -504,6 +523,13 @@ section.ps-services-jumbotron{
 /* PS Store - Discounts */
 .ps-store-discounts .ms-card-img{
     margin: 20px 0;
+    transition: all 0.5s;
+}
+
+.ms-card-img:hover{
+    transform: scale(1.03);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #playstation-now-jumbo .info-product p{
@@ -513,6 +539,18 @@ section.ps-services-jumbotron{
 /*Social*/
 .social-container .social{
     margin: 10px 5px;
+}
+
+.social-container .social img{
+    transition: transform 0.5s;
+}
+
+.social-container .social img:hover{
+    transform: scale(1.03);
+}
+
+.social-container .social img:active{
+    transform: scale(0.9);
 }
 
 /* FOOTER */
