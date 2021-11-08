@@ -418,7 +418,7 @@ header nav .ps-logo{
     filter: opacity(0.6);
 }
 
-.ps5-object img:hover{
+.ps5-object:hover img{
     filter: opacity(1);
 }
 
