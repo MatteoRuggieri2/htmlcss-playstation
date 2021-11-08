@@ -32,6 +32,18 @@ header li a{
     text-decoration: none;
 }
 
+header li a:hover{
+    color: #0070d1;
+}
+
+header li a:hover .arrow-down-icon{
+    display: none;
+}
+
+header li a:hover .arrow-down-hover{
+    display: inline-block;
+}
+
 main{
     margin-top: 95px;
 }
@@ -176,6 +188,10 @@ ul .arrow-down-icon{
     display: inline-block;
 }
 
+ul .arrow-down-hover{
+    display: none;
+}
+
 /*Buttons*/
 .ms-btn{
     display: inline-block;
@@ -190,6 +206,10 @@ ul .arrow-down-icon{
 
 .ms-medium-btn:hover{
     transform: scale(1.05);
+}
+
+.ms-medium-btn:active{
+    transform: scale(0.9);
 }
 
 /* Bkg Dark */
@@ -320,6 +340,33 @@ header nav .ps-logo{
     background-position: center;
     border-radius: 15px;
     overflow: hidden;
+    border: 2px solid white;
+    padding: 3px;
+    transition: all 0.5s;
+}
+
+.jumbo-game img{
+    border-radius: 12px;
+    filter: opacity(0.8);
+}
+
+.jumbo-game:hover{
+    border-color: #80a2f1;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px rgb(199, 199, 199);
+}
+
+.jumbo-game:hover img{
+    filter: opacity(1);
+}
+
+.active-jumbo-game img{
+    filter: opacity(1);
+}
+
+.active-jumbo-game{
+    border: 2px solid #2d64e6;
+    padding: 3px;
 }
 
 /*PS5 Section*/
