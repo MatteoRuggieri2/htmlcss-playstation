@@ -272,6 +272,17 @@ ul .arrow-down-hover{
     color: white;
 }
 
+/* Entity */
+.registered-entity{
+    font-size: 10px;
+    color: black;
+    vertical-align: text-top;
+}
+
+.section-title .registered-entity{
+    color: black;
+}
+
 /*HEADER*/
 /*Header-top*/
 .header-top{
