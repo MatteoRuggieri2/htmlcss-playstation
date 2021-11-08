@@ -33,7 +33,7 @@ header li a{
 }
 
 main{
-    margin-top: 100px;
+    margin-top: 95px;
 }
 
 footer{
@@ -50,7 +50,8 @@ footer ul{
 }
 
 footer ul li{
-    line-height: 35px;
+    margin: 10px;
+    max-width: 200px;
 }
 
 footer a{
@@ -60,6 +61,10 @@ footer a{
 
 section{
     padding: 30px 0;
+}
+
+.ms-sect-bkg-white{
+    padding: 80px 0;
 }
 
 img{
@@ -148,9 +153,10 @@ img{
 }
 
 .section-title span{
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 600;
     text-transform: uppercase;
-    color: #0a77d0;
+    color: #0072ce;
 }
 
 .section-title h2{
@@ -179,30 +185,65 @@ ul .arrow-down-icon{
 .ms-medium-btn{
     padding: 7px 14px;
     border-radius: 20px;
+    transition: transform 0.5s;
 }
 
+.ms-medium-btn:hover{
+    transform: scale(1.05);
+}
+
+/* Bkg Dark */
 .ms-bkg-dark{
     background-color: #363636;
     color: white;
 }
 
+.ms-bkg-dark:hover{
+    background-color: #494848;
+    color: white;
+}
+
+/* Bkg white */
 .ms-bkg-white{
-    background-color: white;
+    background-color: #ffffff;
     color: black;
 }
 
-.ms-bkg-grey{
-    background-color: #d9dadc;
-    color: #2d64e6;
+.ms-bkg-white:hover{
+    background-color: #ececec;
+    color: black;
 }
 
+/* Bkg grey */
+.ms-bkg-grey{
+    background-color: #d9dadc;
+    color: #3066e6;
+}
+
+.ms-bkg-grey:hover{
+    background-color: #e7e7e9;
+    color: #3066e6;
+}
+
+/* Bkg orange */
 .ms-bkg-orange{
     background-color: #cd3d0f;
     color: white;
 }
 
+.ms-bkg-orange:hover{
+    background-color: #cf5228;
+    color: white;
+}
+
+/* Bkg Blue */
 .ms-bkg-blue{
     background-color: #2d64e6;
+    color: white;
+}
+
+.ms-bkg-blue:hover{
+    background-color: #4374e7;
     color: white;
 }
 
@@ -210,7 +251,7 @@ ul .arrow-down-icon{
 /*Header-top*/
 .header-top{
     width: 100%;
-    height: 40px;
+    height: 35px;
     background-color: black;
     display: flex;
     justify-content: right;
@@ -250,8 +291,11 @@ header nav .ps-logo{
 }
 
 .nav-right .burger-menu-icon{
+    padding: 5px 15px;
     font-size: 25px;
-    font-weight: 100;
+    color: #737373;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 3px;
 }
 
 .nav-right .lens-icon{
@@ -321,7 +365,7 @@ header nav .ps-logo{
 
 .ps5-object .object-name a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     color: #727272;
 }
 
@@ -386,9 +430,10 @@ header nav .ps-logo{
 /* PS4 Section */
 .ps4-section .info-product p{
     color: grey;
+    font-size: 20px;
 }
 
-/*PS Services - PlayStation Plus*/
+/*PS Services - PlayStation Plus and PlayStation Now*/
 section.ps-services-jumbotron{
     padding: 0;
 }
@@ -399,6 +444,10 @@ section.ps-services-jumbotron{
 
 .ps-services-jumbotron p{
     margin-bottom: 30px;
+}
+
+.ps-services-jumbotron#playstation-plus-jumbo p{
+    color: black;
 }
 
 .img-ps-services{
@@ -415,10 +464,6 @@ section.ps-services-jumbotron{
 }
 
 /*Social*/
-.social-container{
-    padding: 80px 0;
-}
-
 .social-container .social{
     margin: 10px 5px;
 }
