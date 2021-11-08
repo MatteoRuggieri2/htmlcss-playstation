@@ -537,7 +537,7 @@ section.ps-services-jumbotron{
     transition: all 0.5s;
 }
 
-.ms-card-img:hover{
+.ps-store-discounts .ms-card-img:hover{
     transform: scale(1.03);
     border-radius: 20px;
     overflow: hidden;
